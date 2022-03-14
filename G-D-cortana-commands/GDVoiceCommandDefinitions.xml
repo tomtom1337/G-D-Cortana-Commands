@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <!-- Important to change the xml.lang!!!!-->
+  <CommandSet xml:lang="de-de" Name="CustomCommandSet">
+    <CommandPrefix> Matrix </CommandPrefix>
+      <Example> Connect </Example>
+	  
+	<Command Name="Connect">
+      		<Example> Connect CON to CPU </Example>
+      		<ListenFor> Connect DVI-CON </ListenFor>
+      		<Feedback> DONE </Feedback>
+      		<Navigate/>
+    	</Command>	 	  
+	  
+  </CommandSet>  
+</VoiceCommands>
